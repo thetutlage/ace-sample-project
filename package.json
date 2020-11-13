@@ -1,0 +1,24 @@
+{
+  "name": "ace-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/bin/run.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node -r @adonisjs/require-ts/build/register bin/run.ts"
+  },
+  "bin": {
+    "myapp": "./build/bin/run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adonisjs/ace": "^7.1.6",
+    "@adonisjs/application": "^3.0.20"
+  },
+  "devDependencies": {
+    "@adonisjs/require-ts": "^1.1.0",
+    "typescript": "^4.0.5"
+  }
+}
